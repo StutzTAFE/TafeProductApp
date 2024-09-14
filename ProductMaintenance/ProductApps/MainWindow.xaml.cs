@@ -44,6 +44,9 @@ namespace ProductApps
                 int wrap = 0;
                 wrap = charge + 5;
                 totalWrapTextBox.Text = Convert.ToString(wrap);
+                double gst = 0;
+                gst = wrap * 1.1;
+                totalGSTTextBox.Text = Convert.ToString(gst);
 
 
 
