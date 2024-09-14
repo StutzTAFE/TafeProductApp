@@ -41,6 +41,9 @@ namespace ProductApps
                 charge = int.Parse((totalPaymentTextBlock.Text));
                 charge += 25;
                 totalChargeTextBox.Text = Convert.ToString(charge);
+                int wrap = 0;
+                wrap = charge + 5;
+                totalWrapTextBox.Text = Convert.ToString(wrap);
 
 
 
